@@ -1,6 +1,6 @@
 # Site settings
 title:          Tale
-description:    "Minimal Jekyll theme for storytellers"
+description:    "Jurnal Belajar - Just ordinary Journal"
 baseurl:        ""
 url:            "https://mamxalf.github.io"
 
@@ -9,9 +9,9 @@ google_analytics: UA—XXXXXXXX-X
 
 # Author
 author:
-  name:         Chester How
-  url:          https://chester.how
-  email:        chesterhow@gmail.com
+  name:         Hammam Firdaus
+  url:          https://mamxalf.github.io
+  email:        hammamxalf@gmail.com
 
 # Build settings
 markdown:       kramdown
@@ -28,7 +28,7 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-seo-tag
-  # - jemoji #Uncomment this to allow emoji in your post
+  - jemoji #Uncomment this to allow emoji in your post
 
 # Permalinks
 permalink:      /:year-:month-:day/:title
