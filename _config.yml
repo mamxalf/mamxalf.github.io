@@ -1,5 +1,5 @@
 # Site settings
-title:          Tale
+title:          Mam's Blog
 description:    "Jurnal Belajar - Just ordinary Journal"
 baseurl:        ""
 url:            "https://mamxalf.github.io"
@@ -28,7 +28,7 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-seo-tag
-  - jemoji #Uncomment this to allow emoji in your post
+  # - jemoji #Uncomment this to allow emoji in your post
 
 # Permalinks
 permalink:      /:year-:month-:day/:title
