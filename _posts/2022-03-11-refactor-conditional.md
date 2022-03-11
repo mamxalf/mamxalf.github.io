@@ -25,8 +25,9 @@ lists = {
 lists[:one] # => 'satu'
 ```
 Dengan contoh seperti diatas masalah `codefactor` sudah teratasi, tetapi dengan seperti itu saya jadi penasaran dengan performanya, mari kita coba :muscle:
-
-* Percobaan ini saya menguji menggunakan macbook pro 2020 (16gb)
+```
+Percobaan ini saya uji menggunakan macbook pro 2020 (16gb)
+```
   
 ```ruby
 require 'benchmark'
