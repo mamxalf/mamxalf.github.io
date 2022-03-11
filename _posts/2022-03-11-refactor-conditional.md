@@ -125,3 +125,23 @@ If Else       :  0.158783   0.000089   0.158872 (  0.159022)
 Switch Case   :  0.106068   0.000153   0.106221 (  0.106560)
 Hash          :  0.206783   0.000266   0.207049 (  0.207448)
 ```
+
+## Kesimpulan menurut Penulis
+1. Untuk performa paling cepat ternyata ada pada `Switch Case`
+2. Gunakan `If Else` untuk (max) 3 conditional statement
+3. Gunakan `Factory Class` untuk case dimana perlu membandingkan OOP atau antar Class
+4. Gunakan `Switch Case` untuk conditional statement dmn merujuk ke proses fungsi selanjutnya
+5. Gunakan `Hash` jika case conditional statement untuk mencari sebuah nilai dan tidak merujuk ke proses fungsi selanjutnya
+**Note** Pada dasarnya semua ada plus minus-nya tinggal menyesuaikan kebutuhan saja, akan tetapi untuk level code conditional statement seperti ini bisa dipilih solusi untuk kerapian & kejelasan dari code itu sendiri #CMIIW
+
+
+Thanks!
+
+<br>
+<br>
+<br>
+
+**Let me know if something goes wrong**
+### My Contact
+Telegram : @mamxalf<br>
+Email : hammamxalf@gmail.com
