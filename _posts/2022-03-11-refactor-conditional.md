@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Refactor Conditional Statement (if else & switch case) & Performanya"
+title:  "Refactor Conditional Statement (if else & switch case) dan Menguji Performanya"
 author: "Hammam Firdaus"
 tags: Notes Ruby
 ---

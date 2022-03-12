@@ -1,0 +1,39 @@
+<!-- ---
+layout: post
+title:  "RSPEC: Unit Test Ruby & Mencoba membuat excercise a.k.a [Paham Ruby Project]"
+author: "Hammam Firdaus"
+tags: Notes Ruby Rspec
+---
+
+Akhir akhir ini saya sering belajar `Rust Lang` dengan bantuan [Rustlings](https://github.com/rust-lang/rustlings), setelah beberapa excercise saya jadi berpikir 
+```
+kenapa tidak sekalian mencoba membuat dengan ruby, itung" jadi tahu seberapa jauh set pengalaman saya menggunakan ruby
+```
+atas dasar tersebut saya akan mencoba membuat `Rustlings` versi ruby dengan nama `Paham Ruby` :wink:
+
+Mari kita coba!
+
+<br>
+
+## Step 1
+### Generate Gemfile
+```
+# Gemfile
+
+source 'https://rubygems.org'
+
+gem 'rspec'
+```
+
+
+<br>
+<br>
+<br>
+Thanks!
+
+<br>
+
+**Let me know if something goes wrong**
+### My Contact
+Telegram : @mamxalf<br>
+Email : hammamxalf@gmail.com -->
