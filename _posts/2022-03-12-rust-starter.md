@@ -9,7 +9,7 @@ Kenapa RUST???
 Ada banyak sekali alasan kenapa saya ingin menjadi seorang Rustacean, salah satunya adalah artikel berikut ini [Sustainability with Rust](https://aws.amazon.com/blogs/opensource/sustainability-with-rust/).
 
 Maka dari itu saya ingin menulis sebagian perjalanan saya belajar menjadi seorang Rustacean sejati :sunglasses:.
-Sebenasnya ada banyak tutorial atau artikel maupun ebook dan e-course yang membahas mengenai RUST ini, tetapi disini saya mencoba mengikuti beberapa pedoman sebagai berikut :
+Sebenarnya ada banyak tutorial atau artikel maupun ebook dan e-course yang membahas mengenai RUST ini, tetapi disini saya mencoba mengikuti beberapa pedoman sebagai berikut :
 1. [Dokumentasi RUST Official](https://doc.rust-lang.org/book/)
 2. [Learning Rust - Dumindu Madunuwan](https://learning-rust.github.io/)
 3. [Ebook Easy Rust Bhs Indo - Ariandy](https://github.com/ariandy/easy-rust-indonesia)
