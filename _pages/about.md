@@ -7,7 +7,7 @@ permalink: /about/
 
 Hello, everyone 👋 !
 
-Introduce me **Hammam Firdaus** a Software Engineer [Qontak by Mekari](https://mekari.com/produk/qontak/). I'm currently a Rubyst and trying to become a Rustacean 😄 , but i'm very possible to learn and build program use another programming language 😃
+Introduce me **Hammam Firdaus** a Software Engineer [Qontak by Mekari](https://mekari.com/produk/qontak/). I'm currently a Rubyst 😄 , but i'm very possible to learn and build program use another programming language 😃
 
 I'm build web mostly use Rails ( From Hello World to IPO 🤟 ).
 
