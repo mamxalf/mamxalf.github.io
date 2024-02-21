@@ -273,13 +273,12 @@ export default async function Home() {
       <Container className="mt-9">
         <div className="max-w-2xl">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
-            Software designer, founder, and amateur astronaut.
+            Software Engineer, Farmer, and Kite Fighter.
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            I’m Spencer, a software designer and entrepreneur based in New York
-            City. I’m the founder and CEO of Planetaria, where we develop
-            technologies that empower regular people to explore space on their
-            own terms.
+            I’m Hammam, a software engineer based in Yogyakarta, Indonesia. I’m a highly skilled software engineer with 4 years of experience in the software industry.
+            My focus area for the past few years has been Fullstack development (more in the Backend area) with Ruby (Rails), Javascript (ExpressJs, NextJs), and Golang.
+            While my expertise lies in Fullstack development, I’m always eager to expand my skill set and stay up-to-date with the latest technology trends.
           </p>
           <div className="mt-6 flex gap-6">
             <SocialLink href="#" aria-label="Follow on X" icon={XIcon} />
