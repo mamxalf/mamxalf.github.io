@@ -9,10 +9,10 @@ export const metadata: Metadata = {
   title: {
     template: '%s - Hammam Firdaus',
     default:
-      'Hammam Firdaus - Software Engineer, Farmer, and Kite Fighter',
+      'Hammam Firdaus - Software engineer, Deep-Lying Playmaker and Amateur Farmer.',
   },
   description:
-    'I’m Spencer, a software engineer, farmer and kite fighter based in Yogyakarta, Indonesia.',
+    'I’m Hammam, a software engineer based in Yogyakarta, Indonesia.',
   alternates: {
     types: {
       'application/rss+xml': `${process.env.NEXT_PUBLIC_SITE_URL}/feed.xml`,
