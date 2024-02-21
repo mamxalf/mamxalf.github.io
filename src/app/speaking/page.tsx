@@ -43,14 +43,14 @@ function Appearance({
 export const metadata: Metadata = {
   title: 'Speaking',
   description:
-    'I’ve spoken at events all around the world and been interviewed for many podcasts.',
+    'I’ve spoken at events and training.',
 }
 
 export default function Speaking() {
   return (
     <SimpleLayout
-      title="I’ve spoken at events all around the world and been interviewed for many podcasts."
-      intro="One of my favorite ways to share my ideas is live on stage, where there’s so much more communication bandwidth than there is in writing, and I love podcast interviews because they give me the opportunity to answer questions instead of just present my opinions."
+      title="I’ve spoken at events and training."
+      intro="One of my favorite ways to share my ideas is live on stage, where there’s so much more communication bandwidth than there is in writing, and I love being a trainer to sharing my knowledge."
     >
       <div className="space-y-20">
         <SpeakingSection title="Conferences">
@@ -69,7 +69,7 @@ export default function Speaking() {
             cta="Watch video"
           />
         </SpeakingSection>
-        <SpeakingSection title="Podcasts">
+        <SpeakingSection title="Training">
           <Appearance
             href="#"
             title="Using design as a competitive advantage"

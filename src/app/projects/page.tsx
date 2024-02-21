@@ -3,47 +3,47 @@ import Image from 'next/image'
 
 import { Card } from '@/components/Card'
 import { SimpleLayout } from '@/components/SimpleLayout'
-import logoAnimaginary from '@/images/logos/animaginary.svg'
-import logoCosmos from '@/images/logos/cosmos.svg'
-import logoHelioStream from '@/images/logos/helio-stream.svg'
-import logoOpenShuttle from '@/images/logos/open-shuttle.svg'
-import logoPlanetaria from '@/images/logos/planetaria.svg'
+import logoEverpro from '@/images/logos/everpro.png'
+import logoPipl from '@/images/logos/pipl.png'
+import logoPanggilin from '@/images/logos/panggilin.png'
+import logoHiSpatial from '@/images/logos/hispatial.jpeg'
+import logoQontak from '@/images/logos/qontak.png'
 
 const projects = [
   {
-    name: 'Planetaria',
+    name: 'Qontak Omnichannel',
     description:
-      'Creating technology to empower civilians to explore space on their own terms.',
-    link: { href: 'http://planetaria.tech', label: 'planetaria.tech' },
-    logo: logoPlanetaria,
+      'One of Biggest Omnichannel in Indonesia.',
+    link: { href: 'https://qontak.com/', label: 'Mekari Qontak' },
+    logo: logoQontak,
   },
   {
-    name: 'Animaginary',
+    name: 'Everpro',
     description:
-      'High performance web animation library, hand-written in optimized WASM.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoAnimaginary,
+      'Platform connected commerce #1 in Indonesia',
+    link: { href: '#', label: 'Everpro' },
+    logo: logoEverpro,
   },
   {
-    name: 'HelioStream',
+    name: 'Panggil.in',
     description:
-      'Real-time video streaming library, optimized for interstellar transmission.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoHelioStream,
+      'Digital Wedding Invitation',
+    link: { href: 'https://panggil.in/', label: 'Panggil.in' },
+    logo: logoPanggilin,
   },
   {
-    name: 'cosmOS',
+    name: 'Pipl.ai',
     description:
-      'The operating system that powers our Planetaria space shuttles.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoCosmos,
+      'Smart email automation.',
+    link: { href: 'https://pipl.ai/', label: 'Pipl.aI' },
+    logo: logoPipl,
   },
   {
-    name: 'OpenShuttle',
+    name: 'Hi Spatial',
     description:
-      'The schematics for the first rocket I designed that successfully made it to orbit.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoOpenShuttle,
+      'Educate about GIS Development.',
+    link: { href: 'https://www.instagram.com/hi.spatial/', label: 'Hi Spatial' },
+    logo: logoHiSpatial,
   },
 ]
 
@@ -60,14 +60,14 @@ function LinkIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
 
 export const metadata: Metadata = {
   title: 'Projects',
-  description: 'Things I’ve made trying to put my dent in the universe.',
+  description: 'Things I’ve been involved in.',
 }
 
 export default function Projects() {
   return (
     <SimpleLayout
-      title="Things I’ve made trying to put my dent in the universe."
-      intro="I’ve worked on tons of little projects over the years but these are the ones that I’m most proud of. Many of them are open-source, so if you see something that piques your interest, check out the code and contribute if you have ideas for how it can be improved."
+      title="Things I’ve been involve in."
+      intro="I’ve worked on tons of projects over the years but these are the ones that I’m most proud of. Many of them are after office hour project and having fun with my friends."
     >
       <ul
         role="list"
