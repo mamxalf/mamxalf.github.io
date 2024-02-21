@@ -273,34 +273,35 @@ export default async function Home() {
       <Container className="mt-9">
         <div className="max-w-2xl">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
-            Software Engineer, Farmer, and Kite Fighter.
+            Software engineer, and amateur farmer.
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
             I’m Hammam, a software engineer based in Yogyakarta, Indonesia. I’m a highly skilled software engineer with 4 years of experience in the software industry.
             My focus area for the past few years has been Fullstack development (more in the Backend area) with Ruby (Rails), Javascript (ExpressJs, NextJs), and Golang.
-            While my expertise lies in Fullstack development, I’m always eager to expand my skill set and stay up-to-date with the latest technology trends.
+            While my expertise lies in Fullstack development, I’m always eager to expand my skill set and stay up-to-date with the latest technology trends. There are several newer technology stacks, such as Rust, Elixir, GraphQL and etc that have caught my attention.
+            Although I haven’t had the opportunity to work with them in production applications, I’m enthusiastic about deep diving into these technologies and applying them in real-world scenarios.
           </p>
           <div className="mt-6 flex gap-6">
-            <SocialLink href="#" aria-label="Follow on X" icon={XIcon} />
-            <SocialLink
+            {/* <SocialLink href="#" aria-label="Follow on X" icon={XIcon} /> */}
+            {/* <SocialLink
               href="#"
               aria-label="Follow on Instagram"
               icon={InstagramIcon}
-            />
+            /> */}
             <SocialLink
-              href="#"
+              href="https://github.com/mamxalf"
               aria-label="Follow on GitHub"
               icon={GitHubIcon}
             />
             <SocialLink
-              href="#"
+              href="https://www.linkedin.com/in/hammamxalf/"
               aria-label="Follow on LinkedIn"
               icon={LinkedInIcon}
             />
           </div>
         </div>
       </Container>
-      <Photos />
+      {/* <Photos /> */}
       <Container className="mt-24 md:mt-28">
         <div className="mx-auto grid max-w-xl grid-cols-1 gap-y-20 lg:max-w-none lg:grid-cols-2">
           <div className="flex flex-col gap-16">
@@ -309,7 +310,7 @@ export default async function Home() {
             ))}
           </div>
           <div className="space-y-10 lg:pl-16 xl:pl-24">
-            <Newsletter />
+            {/* <Newsletter /> */}
             <Resume />
           </div>
         </div>
