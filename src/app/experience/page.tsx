@@ -67,7 +67,7 @@ export default function Experience() {
                                 Successfully reduced workload webhook receiver by 30% by implementing buffer data and making batching process to write data with Apache Kafka.
                             </p>
                             <p className="relative z-10 text-sm text-zinc-600 dark:text-zinc-400">
-                                Mentored and provided guidance to internship engineers, supporting them in their professional growth and helping them navigate the challenges of software development. Shared my knowledge, best practices, and industry insights, fostering a positive learning environment and contributing to the interns' development.
+                                Mentored and provided guidance to internship engineers, supporting them in their professional growth and helping them navigate the challenges of software development. Shared my knowledge, best practices, and industry insights, fostering a positive learning environment and contributing to the interns development.
                             </p>
                         </SpeakingSection>
                         <SpeakingSection title="Amikom Center">
