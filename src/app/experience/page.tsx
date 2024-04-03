@@ -32,6 +32,9 @@ export default function Experience() {
     return (
         <Container className="mt-16 sm:mt-32">
             <div className="grid grid-cols-1 gap-y-16 lg:grid-cols-2 lg:grid-rows-[auto_1fr] lg:gap-y-12">
+                <div className="lg:pl-20">
+                    <Resume />
+                </div>
                 <div className="lg:order-first lg:row-span-2">
                     <div className="space-y-20">
                         <SpeakingSection title="Trinity Wizards">
@@ -39,10 +42,10 @@ export default function Experience() {
                                 Working on building middleware for Malaysia Airlines using monorepo and implementing microservice.
                             </p>
                             <p className="relative z-10 text-sm text-zinc-600 dark:text-zinc-400">
-                                Revamp mobile endpoint Malaysia Airlines for reducing complex algorithms and refactor N+1 code.
+                                Revamp backend server (check-in domain) Malaysia Airlines for reducing complex algorithms and refactor N+1 code.
                             </p>
                             <p className="relative z-10 text-sm text-zinc-600 dark:text-zinc-400">
-                                Successfully reduce loading time on static files on the server to 60% using LRU Cache.
+                                Successfully reduce loading time on static files download on the server to 60% using LRU Cache.
                             </p>
                         </SpeakingSection>
                         <SpeakingSection title="Evermos">
@@ -70,18 +73,7 @@ export default function Experience() {
                                 Mentored and provided guidance to internship engineers, supporting them in their professional growth and helping them navigate the challenges of software development. Shared my knowledge, best practices, and industry insights, fostering a positive learning environment and contributing to the interns development.
                             </p>
                         </SpeakingSection>
-                        <SpeakingSection title="Amikom Center">
-                            <p className="relative z-10 text-sm text-zinc-600 dark:text-zinc-400">
-                                Taught and guided Bootcamp participants on Web Development using PHP Laravel and Postgresql, providing comprehensive instruction on web development concepts, tools, and best practices.
-                            </p>
-                            <p className="relative z-10 text-sm text-zinc-600 dark:text-zinc-400">
-                                Developed curriculum and course materials for the Bootcamp, ensuring that the content was relevant, up-to-date, and aligned with industry standards.
-                            </p>
-                        </SpeakingSection>
                     </div>
-                </div>
-                <div className="lg:pl-20">
-                    <Resume />
                 </div>
             </div>
         </Container>
@@ -111,15 +103,8 @@ function Resume() {
             company: 'Mekari',
             title: 'Software Engineer',
             logo: logoMekari,
-            start: 'Apr 2020',
+            start: 'Apr 2021',
             end: 'Dec 2022',
-        },
-        {
-            company: 'Amikom Center',
-            title: 'Bootcamp Instructor',
-            logo: logoAmikomCenter,
-            start: 'Nov 2019',
-            end: 'Dec 2021',
         },
     ]
 
