@@ -67,7 +67,7 @@ export default function About() {
           </h1>
           <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
             <p>
-              I’m Hammam, a software engineer based in Yogyakarta, Indonesia. I’m a highly skilled software engineer with 4 years of experience in the software industry.
+              I’m Hammam, a software engineer based in Yogyakarta, Indonesia. I’m a highly skilled software engineer with 3 years of experience in the software industry.
               My focus area for the past few years has been Fullstack development (more in the Backend area) with Ruby (Rails), Javascript (ExpressJs, NextJs), and Golang.
               While my expertise lies in Fullstack development, I’m always eager to expand my skill set and stay up-to-date with the latest technology trends. There are several newer technology stacks, such as Rust, Elixir, GraphQL and etc that have caught my attention.
               Although I haven’t had the opportunity to work with them in production applications, I’m enthusiastic about deep diving into these technologies and applying them in real-world scenarios.
