@@ -97,7 +97,7 @@ function Resume() {
             title: 'Backend Engineer',
             logo: logoEvermos,
             start: 'Dec 2022',
-            end: 'May 2022',
+            end: 'Mar 2023',
         },
         {
             company: 'Mekari',
