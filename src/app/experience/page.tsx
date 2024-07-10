@@ -2,14 +2,14 @@ import { type Metadata } from 'next'
 import Image, { ImageProps } from 'next/image'
 
 import { Container } from '@/components/Container'
-import portraitImage from '@/images/portrait.jpg'
+// import portraitImage from '@/images/portrait.jpg'
 import logoTW from '@/images/logos/tw.png'
 import logoEvermos from '@/images/logos/evermos.png'
 import logoMekari from '@/images/logos/mekari.png'
-import logoAmikomCenter from '@/images/logos/amikomcenter.jpeg'
+// import logoAmikomCenter from '@/images/logos/amikomcenter.jpeg'
 import { Button } from '@/components/Button'
 import { Section } from '@/components/Section'
-import { Card } from '@/components/Card'
+// import { Card } from '@/components/Card'
 
 export const metadata: Metadata = {
     title: 'About',
@@ -40,6 +40,9 @@ export default function Experience() {
                         <SpeakingSection title="Trinity Wizards">
                             <p className="relative z-10 text-sm text-zinc-600 dark:text-zinc-400">
                                 Working on building middleware for Malaysia Airlines using monorepo and implementing microservice.
+                            </p>
+                            <p className="relative z-10 text-sm text-zinc-600 dark:text-zinc-400">
+                                Reduced used resource server by implementing Azure APIM Policy by 20-30% to avoid inappropriate request parameters.
                             </p>
                             <p className="relative z-10 text-sm text-zinc-600 dark:text-zinc-400">
                                 Revamp backend server (check-in domain) Malaysia Airlines for reducing complex algorithms and refactor N+1 code.
@@ -97,13 +100,13 @@ function Resume() {
             title: 'Backend Engineer',
             logo: logoEvermos,
             start: 'Dec 2022',
-            end: 'Mar 2023',
+            end: 'May 2023',
         },
         {
             company: 'Mekari',
             title: 'Software Engineer',
             logo: logoMekari,
-            start: 'Apr 2021',
+            start: 'Apr 2020',
             end: 'Dec 2022',
         },
     ]
